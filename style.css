@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegador{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px  5px red;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 1rem;
+}
+li{
+    list-style: none;
+    border-bottom: 1px solid red;
+    padding: 10px 0;
+}
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navegador img{
+    width: 100px;
+}
